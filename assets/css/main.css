@@ -2567,7 +2567,7 @@ Image
 		ul.items {
 			list-style: none;
 			padding-left: 0;
-			padding-top: 5em;
+			padding-top: 0;
 		}
 
 			ul.items > li {
