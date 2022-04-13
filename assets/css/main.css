@@ -3478,12 +3478,14 @@ Image
 			#wrapper > section{
 				max-width: 100%;
 				margin: 0;
+				text-align: center;
 			}
 
 			#wrapper section:first-child {
 				width: 100%;
 				height: auto;
 				position: relative;
+				text-align: center;
 			}
 
 			#wrapper > section.intro > header > * {
@@ -3496,8 +3498,10 @@ Image
 
 			#wrapper section > .content {
 				margin: auto;
-				align-items: center;
 				max-width: 100%;
+				align-items: center;
+				text-align: center;
+				
 			} 
 
 		}
@@ -3583,6 +3587,12 @@ Image
 		}
 
 		@media screen and (max-width: 1152px) {
+			.p-desc {
+				font-family:'Times New Roman', Times, serif;
+				color: #999999;
+				max-width: 95%;
+				margin: auto;
+			}
 
 			#wrapper {
 				padding: 0;
