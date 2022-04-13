@@ -3325,6 +3325,7 @@ Image
 			position: fixed;
 			width: 35vw;
 			z-index: -1;
+			overflow: auto;
 		}
 
 		#wrapper section {
@@ -3473,7 +3474,12 @@ Image
 
 
 		@media screen and (max-width: 1152px) {
-
+			#wrapper section:first-child {
+				width: 100%;
+				height: auto;
+				position: relative;
+			}
+			
 			#wrapper > section.intro > header > * {
 				width: 100%;
 			}
