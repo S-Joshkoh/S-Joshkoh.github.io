@@ -3479,7 +3479,7 @@ Image
 				height: auto;
 				position: relative;
 			}
-			
+
 			#wrapper > section.intro > header > * {
 				width: 100%;
 			}
@@ -3487,6 +3487,10 @@ Image
 			#wrapper > section.intro > header:before {
 				margin-left: 0;
 			}
+
+			#wrapper section > .content {
+				margin: auto
+			} 
 
 		}
 
