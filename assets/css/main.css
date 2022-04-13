@@ -3474,6 +3474,10 @@ Image
 
 
 		@media screen and (max-width: 1152px) {
+			#wrapper > section{
+				width: 100%;
+			}
+
 			#wrapper section:first-child {
 				width: 100%;
 				height: auto;
@@ -3489,7 +3493,7 @@ Image
 			}
 
 			#wrapper section > .content {
-				margin: auto
+				margin: auto;
 			} 
 
 		}
