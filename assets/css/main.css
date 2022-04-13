@@ -3426,6 +3426,7 @@ Image
 				display:block;
 				margin-left: auto;
 				margin-right: auto;
+				position: relative;
 			}
 
 			#wrapper > section.intro {
@@ -3475,7 +3476,8 @@ Image
 
 		@media screen and (max-width: 1152px) {
 			#wrapper > section{
-				width: 100%;
+				max-width: 100%;
+				margin: 0;
 			}
 
 			#wrapper section:first-child {
@@ -3494,6 +3496,8 @@ Image
 
 			#wrapper section > .content {
 				margin: auto;
+				align-items: center;
+				max-width: 100%;
 			} 
 
 		}
