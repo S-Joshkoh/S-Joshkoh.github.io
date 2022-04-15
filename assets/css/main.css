@@ -3527,6 +3527,14 @@ Image
 				align-items: center;
 				text-align: center;
 			} 
+			.p-sub-header {
+				font-family:Haettenschweiler, sans-serif; 
+				font-size: 30px;
+				line-height:normal ;
+				max-width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 
 
