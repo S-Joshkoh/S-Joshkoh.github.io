@@ -3501,9 +3501,7 @@ Image
 				max-width: 100%;
 				align-items: center;
 				text-align: center;
-				
 			} 
-
 		}
 
 
@@ -3782,7 +3780,15 @@ Image
 			#wrapper .copyright {
 				padding: 0 2rem 2rem 2rem;
 			}
-
+			
+			.skillsets {
+				height: 300px;
+				width: 470px;
+				display:block;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+			}
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3819,6 +3825,14 @@ Image
 				padding: 0 1.5rem 1.5rem 1.5rem;
 			}
 
+			.skillsets {
+				height: 200px;
+				width: 370px;
+				display:block;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+			}
 		}
 
 	body.is-mobile #wrapper:before {
