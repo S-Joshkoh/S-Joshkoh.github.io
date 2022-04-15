@@ -3409,18 +3409,27 @@ Image
 				font-weight: 600;
 				line-height: normal;
 				color: #1D303B;
+				margin-bottom: 0;
 			}
 
+			.p-sub-header {
+				font-family:Haettenschweiler, sans-serif; 
+				font-size: 30px;
+				line-height:normal ;
+				max-width: 80%;
+				margin-left: 0;
+			}
 			.p-desc {
 				font-family:'Times New Roman', Times, serif;
 				color: #999999;
-				max-width: 60%;
+				max-width: 80%;
 				margin: 0;
+				margin-top: 2rem;
 			}
 
 			.intro-content {
 				margin-top: 3rem; 
-				margin-bottom: 7rem;
+				margin-bottom: 1rem;
 			}
 
 			.intro-header-div {
