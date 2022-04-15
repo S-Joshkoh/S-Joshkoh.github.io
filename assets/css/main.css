@@ -3614,7 +3614,8 @@ Image
 				font-family:'Times New Roman', Times, serif;
 				color: #999999;
 				max-width: 95%;
-				margin: auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 
 			#wrapper {
@@ -3859,6 +3860,13 @@ Image
 				margin-left: auto;
 				margin-right: auto;
 				position: relative;
+			}
+			.p-desc {
+				font-family:'Times New Roman', Times, serif;
+				color: #999999;
+				max-width: 80%;
+				margin: 0;
+				margin-top: 2rem;
 			}
 		}
 
