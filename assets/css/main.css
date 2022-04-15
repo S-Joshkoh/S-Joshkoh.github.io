@@ -3412,6 +3412,11 @@ Image
 				margin-bottom: 0;
 			}
 
+			.emoji {
+				letter-spacing: 1em;
+				font-size: 50px;
+			}
+
 			.p-sub-header {
 				font-family:Haettenschweiler, sans-serif; 
 				font-size: 30px;
