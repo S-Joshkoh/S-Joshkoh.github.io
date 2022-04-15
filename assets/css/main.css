@@ -3668,6 +3668,7 @@ Image
 
 					#wrapper > section > .content > :last-child {
 						margin-bottom: 0;
+						padding: 5rem;
 					}
 
 					#wrapper > section > .content > section {
