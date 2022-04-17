@@ -2753,6 +2753,7 @@ Image
 				line-height: 2.25rem;
 				border-radius: 2.25rem;
 				display: inline-block;
+				z-index: 1;
 			}
 
 				ul.icons li .icon:before {
