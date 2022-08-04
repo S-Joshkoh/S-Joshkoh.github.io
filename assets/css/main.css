@@ -3433,6 +3433,10 @@ Image
 				margin-top: 2rem;
 			}
 
+			.personal-project {
+				color: black;
+				z-index: 999;
+			}
 			.intro-content {
 				margin-top: 3rem; 
 				margin-bottom: 1rem;
