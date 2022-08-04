@@ -3369,6 +3369,7 @@ Image
 				grid-area: content;
 				max-width: 75vw;
 				position: relative;
+				z-index: 98;
 			}
 
 			#wrapper section > footer {
